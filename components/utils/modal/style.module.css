@@ -1,0 +1,27 @@
+.wrapper {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.800
+    );
+}
+
+.content {
+    width: 90%;
+    height: fit-content;
+    max-height: 90%;
+    min-height: 10%;
+    background-color: white;
+    border-radius: 1em;
+    overflow: auto
+}
+
+.header { 
+    @apply bg-blog-primary shadow-md shadow-black;
+    border-radius: 0.5em 0.5em 0 0;
+}
